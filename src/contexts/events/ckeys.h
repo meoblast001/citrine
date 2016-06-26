@@ -1,0 +1,47 @@
+/*
+Copyright (C) 2010 Braden Walters
+
+This software may be modified and distributed under the terms of the MIT
+license. See the LICENSE file for details.
+*/
+
+#ifndef CKEYS_H
+#define CKEYS_H
+
+namespace Citrine
+{
+	enum Key
+	{
+		KEY_A = 1, KEY_B, KEY_C, KEY_D, KEY_E, KEY_F, KEY_G, KEY_H, KEY_I, KEY_J, KEY_K, KEY_L, KEY_M, KEY_N, KEY_O, KEY_P, KEY_Q, KEY_R, KEY_S, KEY_T, KEY_U, KEY_V, KEY_W, KEY_X, KEY_Y, KEY_Z,
+		KEY_0, KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6, KEY_7, KEY_8, KEY_9,
+		KEY_KP0, KEY_KP1, KEY_KP2, KEY_KP3, KEY_KP4, KEY_KP5, KEY_KP6, KEY_KP7, KEY_KP8, KEY_KP9,
+		KEY_LEFT,
+		KEY_UP,
+		KEY_RIGHT,
+		KEY_DOWN,
+		KEY_SPACE,
+		KEY_RETURN,
+		KEY_DELETE,
+		KEY_END,
+		KEY_PAGEUP,
+		KEY_PAGEDOWN,
+		KEY_HOME,
+		KEY_INSERT,
+		KEY_L_SHIFT,
+		KEY_R_SHIFT,
+		KEY_BACKSLASH,
+		KEY_BACKSPACE,
+		KEY_CAPSLOCK,
+		KEY_TAB,
+		KEY_BACKQUOTE,
+		KEY_L_BRACKET,
+		KEY_R_BRACKET,
+		KEY_SEMICOLON,
+		KEY_QUOTE,
+		KEY_COMMA,
+		KEY_PERIOD,
+		KEY_SLASH,
+		KEY_ENUM_TERMINATION
+	};
+}
+#endif
