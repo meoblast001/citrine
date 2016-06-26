@@ -45,7 +45,7 @@ check_include_file(windows.h, HAVE_NT)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
 
 #Required for C++
-add_definitions("-Wall -ansi -pedantic")
+add_definitions("-Wall -ansi -pedantic -fpermissive")
 
 #Specify build source files
 add_library(citrine SHARED
